@@ -1,28 +1,28 @@
 {
     "Result":[
         {
-            "id": "1dog",
+            "id": "1cat",
             "name": "Ginger",
             "birthday": "08-06-2023",
             "breed": "Puspin",
             "sex": "Male",
-            "image": ""
+            "image": "../images/ginger.jpg"
         },
         {
-            "id": "2dog",
+            "id": "2cat",
             "name": "Pepper",
             "birthday": "10-02-2023",
             "breed": "Puspin",
             "sex": "Female",
-            "image": ""
+            "image": "../images/pepper.jpg"
         },
         {
-            "id": "3dog",
+            "id": "3cat",
             "name": "Papri",
             "birthday": "12-01-2023",
             "breed": "Puspin",
             "sex": "Male",
-            "image": ""
+            "image": "../images/papri.jpg"
         }
     ]
 }

@@ -6,7 +6,7 @@
             "birthday": "08-06-2023",
             "breed": "Chowchow",
             "sex": "Male",
-            "image": ""
+            "image": "../images/loki.jpg"
         },
         {
             "id": "2dog",
@@ -14,7 +14,7 @@
             "birthday": "10-02-2021",
             "breed": "Chowchow",
             "sex": "Female",
-            "image": ""
+            "image": "../images/loka.jpg"
         },
         {
             "id": "3dog",
@@ -22,7 +22,7 @@
             "birthday": "12-01-2019",
             "breed": "Aspin",
             "sex": "Male",
-            "image": ""
+            "image": "../images/bolt.jpg"
         }
     ]
 }

@@ -49,3 +49,27 @@ export async function loadPartials() {
   renderWithTemplate(footerTemplate, footerElement);
   renderWithTemplate(navTemplate, navElement)
 }
+
+export function getParams(param) {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const product = urlParams.get(param);
+
+  return product;
+}
+
+async function convertToJson(res) {
+  var data = await res.json();
+  if (res.ok) {
+    return data;
+  } else {
+    throw {name: "servicesError", message: data };
+  }
+}
+
+export async function getPets(category){
+  const pets = await fetch(`../json/${category}.json`);
+  const data = await convertToJson(pets);
+
+  return data.Result;
+}
