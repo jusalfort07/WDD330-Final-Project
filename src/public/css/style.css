@@ -1,0 +1,39 @@
+:root{
+  --sky-blue: #87CEEB;
+  --moss-green: #476930;
+  --white: #FFFFFF;
+  --marian-blue: #1C448E;
+  --carrot-orange: #F9A03F;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background-color: var(--sky-blue);
+}
+
+/* Header Styles */
+header{
+  background-color: var(--carrot-orange);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header h1{
+  text-align: center;
+}
+
+header img{
+  width: 100%;
+}
+
+/* Main Styles */
+main{
+  background-color: var(--carrot-orange);
+}
+
+/* Footer Styles */
+footer{
+  background-color: var(--carrot-orange);
+  text-align: center;
+}
