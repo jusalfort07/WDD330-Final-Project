@@ -39,10 +39,13 @@ export async function loadTemplate(path) {
 export async function loadPartials() {
   const headerTemplate = await loadTemplate("../partials/header.html")
   const footerTemplate = await loadTemplate("../partials/footer.html")
+  const navTemplate = await loadTemplate("../partials/navigation.html")
 
   const headerElement = document.querySelector("#header");
   const footerElement = document.querySelector("#footer");
+  const navElement = document.querySelector("#navigation")
 
   renderWithTemplate(headerTemplate, headerElement);
   renderWithTemplate(footerTemplate, footerElement);
+  renderWithTemplate(navTemplate, navElement)
 }
