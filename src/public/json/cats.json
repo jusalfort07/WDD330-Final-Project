@@ -1,0 +1,28 @@
+{
+    "Result":[
+        {
+            "id": "1dog",
+            "name": "Ginger",
+            "birthday": "08-06-2023",
+            "breed": "Puspin",
+            "sex": "Male",
+            "image": ""
+        },
+        {
+            "id": "2dog",
+            "name": "Pepper",
+            "birthday": "10-02-2023",
+            "breed": "Puspin",
+            "sex": "Female",
+            "image": ""
+        },
+        {
+            "id": "3dog",
+            "name": "Papri",
+            "birthday": "12-01-2023",
+            "breed": "Puspin",
+            "sex": "Male",
+            "image": ""
+        }
+    ]
+}
