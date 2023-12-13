@@ -73,3 +73,11 @@ export async function getPets(category){
 
   return data.Result;
 }
+
+export async function getPetsById(category, id){
+  const pets = await fetch(`../json/${category}.json`);
+  const data = await convertToJson(pets);
+  const pet = await data.Result.find(x => x.id === id);
+
+  return pet;
+}
