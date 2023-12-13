@@ -1,0 +1,21 @@
+.pet-list {
+    text-align: center;
+}
+
+.pet-list img {
+    height: 300px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.pet-container {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+@media screen and (min-width: 900px){
+    .pet-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
