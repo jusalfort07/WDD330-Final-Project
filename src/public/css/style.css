@@ -7,8 +7,6 @@
 }
 
 body {
-  width: 80%;
-  margin: auto;
   background-color: var(--sky-blue);
 }
 
@@ -25,6 +23,38 @@ header h1{
 
 header img{
   width: 100%;
+}
+
+/* Navigation Styles */
+nav{
+  background-color: var(--carrot-orange);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  font-size: large;
+  border: 1px solid black;
+  margin: auto;
+  width: 80%;
+}
+
+nav ul li:hover{
+  background-color: var(--moss-green);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /* Main Styles */
