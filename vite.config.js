@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "src/index.html"),
         signup: resolve(__dirname, "src/signup/index.html"),
+        signup_success: resolve(__dirname, "src/signup_success/index.html"),
         pet_pages: resolve(__dirname, "src/pet_pages/index.html"),
         pet_details: resolve(__dirname, "src/pet_details/index.html"),
         pet_care: resolve(__dirname, "src/pet_care/index.html")
